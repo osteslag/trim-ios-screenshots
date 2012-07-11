@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CCF3EF1815A1CADD009A5F2F"
+               BuildableName = "Trim iOS Screenshots.action"
+               BlueprintName = "Trim iOS Screenshots"
+               ReferencedContainer = "container:Trim iOS Screenshots.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <PathRunnable
+         FilePath = "/Applications/Automator.app">
+      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CCF3EF1815A1CADD009A5F2F"
+            BuildableName = "Trim iOS Screenshots.action"
+            BlueprintName = "Trim iOS Screenshots"
+            ReferencedContainer = "container:Trim iOS Screenshots.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-action &quot;$(BUILT_PRODUCTS_DIR)/$(FULL_PRODUCT_NAME)&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "NO">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#echo &quot;${ARCHIVE_PRODUCTS_PATH}&quot; &gt;&gt; /Users/job/Desktop/out.txt&#10;#ls -la &quot;${ARCHIVE_PRODUCTS_PATH}&quot; &gt;&gt; /Users/job/Desktop/out.txt&#10;#ls -la &quot;${ARCHIVE_PRODUCTS_PATH}/${INSTALL_PATH}/${FULL_PRODUCT_NAME}&quot; &gt;&gt; /Users/job/Desktop/out.txt&#10;&#10;#echo ${USER_LIBRARY_DIR}&#10;&#10;src_path=${ARCHIVE_PRODUCTS_PATH}${INSTALL_PATH}/${FULL_PRODUCT_NAME}&#10;#dst_path=${INSTALL_PATH}/${FULL_PRODUCT_NAME}&#10;dst_path=${INSTALL_PATH}&#10;out_file=${HOME}/Desktop/out.txt&#10;&#10;echo &quot;Source:\n    \&quot;${src_path}\&quot;\n\nDestination:\n    \&quot;${dst_path}\&quot;\n&quot; &gt; &quot;${out_file}&quot;&#10;&#10;#ls -la &quot;${ARCHIVE_PRODUCTS_PATH}${INSTALL_PATH}&quot; &gt;&gt; &quot;${out_file}&quot;&#10;cp -R &quot;${source_path}&quot; &quot;${dst_path}&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "CCF3EF1815A1CADD009A5F2F"
+                     BuildableName = "Trim iOS Screenshots.action"
+                     BlueprintName = "Trim iOS Screenshots"
+                     ReferencedContainer = "container:Trim iOS Screenshots.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>

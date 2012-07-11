@@ -1,0 +1,37 @@
+.Dd July 11, 2012
+.Dt TRIMS 1
+.Os Darwin
+.Sh NAME
+.Nm trims
+.Nd trim iOS screenshots by cropping away the status bar
+.Sh SYNOPSIS
+.Nm
+.Op Fl v | Fl h
+|
+.Oo
+.Op Fl r
+.Ar path ...
+.Oc
+.Sh DESCRIPTION
+For each iOS screenshot given, either as file
+.Ar path
+or enclosing folder
+.Ar path ,
+.Nm
+processes the image by cropping away the status bar. It is assumed the status bar is located at the top 20 points (40 pixels on a Retina display). The trimmed image is written back to the same file.
+.Pp
+Screenshots with dimensions different from the known iOS device screen sizes are left untouched.
+.Bl -tag -width -indent
+.It Fl r
+Specifies the recursive flag which causes
+.Nm
+to traverse any encountered folder
+.Ar path
+recursively, thereby processing all images in all subfolders and their subfolders etc.
+.It Fl v , -version
+Prints the program name and version number.
+.It Fl h , -help
+Prints the program name and version number and a brief help text.
+.El
+.Sh AUTHORS
+.An "Joachim Bondo" Aq osteslag@gmail.com .

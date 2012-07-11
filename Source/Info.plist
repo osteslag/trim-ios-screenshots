@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>public.image</string>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string></string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryDeveloper</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>recursive</key>
+		<true/>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string></string>
+		<key>AMDInput</key>
+		<string>Folder contents is processed, possibly recursively.</string>
+		<key>AMDNote</key>
+		<string>It is assumed the status bar is located at the top 20 points (40 pixels on a Retina display).</string>
+		<key>AMDOptions</key>
+		<string></string>
+		<key>AMDRelatedActions</key>
+		<string>com.apple.Automator.CropImages</string>
+		<key>AMDRequires</key>
+		<string></string>
+		<key>AMDResult</key>
+		<string></string>
+		<key>AMDSummary</key>
+		<string>This action trims iOS screenshots by cropping away the status bar.</string>
+		<key>AMDWebsite</key>
+		<string>https://github.com/osteslag/trim-ios-screenshots</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>iOS Simulator</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>trim</string>
+		<string>crop</string>
+		<string>screenshot</string>
+		<string>ios</string>
+		<string>iphone</string>
+		<string>ipad</string>
+		<string>status bar</string>
+	</array>
+	<key>AMName</key>
+	<string>Trim iOS Screenshots</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>public.image</string>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>com.apple.Automator.CopyFiles</string>
+		<key>ApplyButton</key>
+		<string>Add</string>
+		<key>IgnoreButton</key>
+		<string>Don’t Add</string>
+		<key>Level</key>
+		<integer>2</integer>
+		<key>Message</key>
+		<string>This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>dk.bondo.Automator.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 Joachim Bondo. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>JBTrimAction</string>
+</dict>
+</plist>

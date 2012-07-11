@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9C5FDC15A43A8500999512 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9C5FDA15A43A8500999512 /* main.xib */; };
+		CCF3EF1D15A1CADD009A5F2F /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3EF1C15A1CADD009A5F2F /* Automator.framework */; };
+		CCF3EF2C15A1CADD009A5F2F /* JBTrimAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3EF2B15A1CADD009A5F2F /* JBTrimAction.m */; };
+		CCF3EF8B15A312B8009A5F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3EF8A15A312B8009A5F2F /* Foundation.framework */; };
+		CCF3EF8D15A312C1009A5F2F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3EF8C15A312C1009A5F2F /* AppKit.framework */; };
+		CCF3EF8F15A314E3009A5F2F /* trims in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCF3EF6F15A1D018009A5F2F /* trims */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF3EF6E15A1D018009A5F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3EF6615A1D017009A5F2F /* trims.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CCF3EEEA15A1C047009A5F2F;
+			remoteInfo = trims;
+		};
+		CCF3EF7015A1D033009A5F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3EF6615A1D017009A5F2F /* trims.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3EEE915A1C047009A5F2F;
+			remoteInfo = trims;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCF3EF8E15A314BB009A5F2F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				CCF3EF8F15A314E3009A5F2F /* trims in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC9C5FDB15A43A8500999512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Resources/en.lproj/main.xib; sourceTree = "<group>"; };
+		CCF3EF1915A1CADD009A5F2F /* Trim iOS Screenshots.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trim iOS Screenshots.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3EF1C15A1CADD009A5F2F /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		CCF3EF2A15A1CADD009A5F2F /* JBTrimAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JBTrimAction.h; path = Source/JBTrimAction.h; sourceTree = "<group>"; };
+		CCF3EF2B15A1CADD009A5F2F /* JBTrimAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JBTrimAction.m; path = Source/JBTrimAction.m; sourceTree = "<group>"; };
+		CCF3EF5F15A1CE0E009A5F2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		CCF3EF6015A1CE0E009A5F2F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		CCF3EF6615A1D017009A5F2F /* trims.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = trims.xcodeproj; path = Command/trims.xcodeproj; sourceTree = "<group>"; };
+		CCF3EF8A15A312B8009A5F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF3EF8C15A312C1009A5F2F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF3EF1515A1CADD009A5F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3EF8D15A312C1009A5F2F /* AppKit.framework in Frameworks */,
+				CCF3EF8B15A312B8009A5F2F /* Foundation.framework in Frameworks */,
+				CCF3EF1D15A1CADD009A5F2F /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9C5FD915A43A7700999512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C5FDA15A43A8500999512 /* main.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCF3EF0D15A1CADD009A5F2F = {
+			isa = PBXGroup;
+			children = (
+				CCF3EF2A15A1CADD009A5F2F /* JBTrimAction.h */,
+				CCF3EF2B15A1CADD009A5F2F /* JBTrimAction.m */,
+				CC9C5FD915A43A7700999512 /* Resources */,
+				CCF3EF2515A1CADD009A5F2F /* Supporting Files */,
+				CCF3EF1B15A1CADD009A5F2F /* Frameworks */,
+				CCF3EF1A15A1CADD009A5F2F /* Products */,
+				CCF3EF6615A1D017009A5F2F /* trims.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF3EF1A15A1CADD009A5F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3EF1915A1CADD009A5F2F /* Trim iOS Screenshots.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF3EF1B15A1CADD009A5F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3EF8C15A312C1009A5F2F /* AppKit.framework */,
+				CCF3EF8A15A312B8009A5F2F /* Foundation.framework */,
+				CCF3EF1C15A1CADD009A5F2F /* Automator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF3EF2515A1CADD009A5F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3EF5F15A1CE0E009A5F2F /* Info.plist */,
+				CCF3EF6015A1CE0E009A5F2F /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Trim iOS Screenshot";
+			sourceTree = "<group>";
+		};
+		CCF3EF6715A1D017009A5F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3EF6F15A1D018009A5F2F /* trims */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF3EF1815A1CADD009A5F2F /* Trim iOS Screenshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3EF3315A1CADD009A5F2F /* Build configuration list for PBXNativeTarget "Trim iOS Screenshots" */;
+			buildPhases = (
+				CCF3EF1415A1CADD009A5F2F /* Sources */,
+				CCF3EF1515A1CADD009A5F2F /* Frameworks */,
+				CCF3EF1615A1CADD009A5F2F /* Resources */,
+				CCF3EF8E15A314BB009A5F2F /* CopyFiles */,
+				CCF3EF1715A1CADD009A5F2F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3EF7115A1D033009A5F2F /* PBXTargetDependency */,
+			);
+			name = "Trim iOS Screenshots";
+			productName = "Trim iOS Screenshot";
+			productReference = CCF3EF1915A1CADD009A5F2F /* Trim iOS Screenshots.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF3EF0F15A1CADD009A5F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = CCF3EF1215A1CADD009A5F2F /* Build configuration list for PBXProject "Trim iOS Screenshots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCF3EF0D15A1CADD009A5F2F;
+			productRefGroup = CCF3EF1A15A1CADD009A5F2F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CCF3EF6715A1D017009A5F2F /* Products */;
+					ProjectRef = CCF3EF6615A1D017009A5F2F /* trims.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CCF3EF1815A1CADD009A5F2F /* Trim iOS Screenshots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CCF3EF6F15A1D018009A5F2F /* trims */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = trims;
+			remoteRef = CCF3EF6E15A1D018009A5F2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF3EF1615A1CADD009A5F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C5FDC15A43A8500999512 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCF3EF1715A1CADD009A5F2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF3EF1415A1CADD009A5F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3EF2C15A1CADD009A5F2F /* JBTrimAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF3EF7115A1D033009A5F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = trims;
+			targetProxy = CCF3EF7015A1D033009A5F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9C5FDA15A43A8500999512 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9C5FDB15A43A8500999512 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF3EF3115A1CADD009A5F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		CCF3EF3215A1CADD009A5F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		CCF3EF3415A1CADD009A5F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Trim iOS Screenshots";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		CCF3EF3515A1CADD009A5F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "Trim iOS Screenshots";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF3EF1215A1CADD009A5F2F /* Build configuration list for PBXProject "Trim iOS Screenshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3EF3115A1CADD009A5F2F /* Debug */,
+				CCF3EF3215A1CADD009A5F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF3EF3315A1CADD009A5F2F /* Build configuration list for PBXNativeTarget "Trim iOS Screenshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3EF3415A1CADD009A5F2F /* Debug */,
+				CCF3EF3515A1CADD009A5F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF3EF0F15A1CADD009A5F2F /* Project object */;
+}
