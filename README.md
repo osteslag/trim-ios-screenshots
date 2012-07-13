@@ -7,7 +7,11 @@ This Xcode project contains two targets, each offering to integrate the job of t
 
 The command line utility does the actual job of the trimming. It uses multiple threads if applicable to make the execution faster. The action embeds and uses the utility and offers the convenience and flexibility of integrating with Automator workflows.
 
-If you don’t want to do the compiling yourself, head over to the [Downloads section](https://github.com/osteslag/trim-ios-screenshots/downloads) and download the binaries directly. _Important: the binaries are not signed. Download and use at your own risk._
+If you don’t want to do the compiling yourself, head over to the [Downloads section](https://github.com/osteslag/trim-ios-screenshots/downloads) and download the binaries directly:
+
+![Binaries for Download](https://github.com/osteslag/trim-ios-screenshots/raw/master/Screenshots/downloads.png)
+
+_Important: the binaries are not signed. Download and use at your own risk._
 
 
 ## Installation
@@ -49,7 +53,7 @@ The `man` page is also available online [here](https://github.com/osteslag/trim-
 
 To use the *Trim iOS Screenshots* action, just add it to your workflow like any other action. It takes image files and folders as input and passes the exact same as output:
 
-![Sample Automator workflow screenshot](https://github.com/osteslag/trim-ios-screenshots/raw/master/README.png)
+![Sample Automator workflow screenshot](https://github.com/osteslag/trim-ios-screenshots/raw/master/Screenshots/workflow.png)
 
 The workflow above takes the Finder selection and trims away the top 20 points (40 pixels on a Retina display) of any encountered image files in the selection that have the dimensions of any known iOS device screen.
 
