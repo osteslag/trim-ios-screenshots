@@ -18,12 +18,12 @@ _Important: the binaries are not signed. Download and use at your own risk._
 
 Both sets of binaries are self-contained. If you only wish to use one of them, just install that one.
 
-### The `trim` Command
+### The `trims` Command
 
 If you’re building the command from source, do so with the *Release* configuration by selecting *Product > Build For > Archiving* in Xcode.
 
-1. Copy `trim` to a directory in your `$PATH`, e.g. `/usr/local/bin/`.
-2. Optionally copy the `man` page, `trim.1`, to a path in your `$MANPATH` or `/usr/local/share/man/man1/`. You may have to create the latter.
+1. Copy `trims` to a directory in your `$PATH`, e.g. `/usr/local/bin/`.
+2. Optionally copy the `man` page, `trims.1`, to a path in your `$MANPATH` or `/usr/local/share/man/man1/`. You may have to create the latter.
 
 
 ### The *Trim iOS Screenshots* Action
@@ -40,7 +40,7 @@ Before doing any trimming, make sure the screenshots are rotated so that the sta
 
 The command line utility is used like this:
 
-    $ trim -r path ...
+    $ trims -r path ...
 
 Where the `-r` option specifies that folder paths should be traversed recursively. Note that input image will be overwritten with the trimmed images.
 
