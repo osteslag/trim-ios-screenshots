@@ -41,6 +41,8 @@ typedef struct {
 static JBScreenGeometry const k_known_screen_geometries[] = {
 	{{960, 640}, 40, YES},
 	{{640, 960}, 40, YES},
+	{{1136, 640}, 40, YES},
+	{{640, 1136}, 40, YES},
 	{{2048, 1536}, 40, YES},
 	{{1536, 2048}, 40, YES},
 	{{480, 320}, 20, NO},
