@@ -29,7 +29,7 @@
 #import "JBImageTrimmer.h"
 
 static char* const kAppName = "trims";
-static char* const kAppVersion = "1.0";
+static char* const kAppVersion = "1.0.1";
 
 
 
