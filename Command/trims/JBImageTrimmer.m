@@ -37,18 +37,30 @@ typedef struct {
 	BOOL is_retina;
 } JBScreenGeometry;
 
-// Declare known screen sizes:
+// Declare known screen sizes and height to crop
 static JBScreenGeometry const k_known_screen_geometries[] = {
-	{{960, 640}, 40, YES},
-	{{640, 960}, 40, YES},
-	{{1136, 640}, 40, YES},
-	{{640, 1136}, 40, YES},
-	{{2048, 1536}, 40, YES},
-	{{1536, 2048}, 40, YES},
-	{{480, 320}, 20, NO},
-	{{320, 480}, 20, NO},
-	{{1024, 768}, 20, NO},
-	{{768, 1024}, 20, NO},
+    // Retina
+        // iPhone
+        {{960, 640}, 40, YES},
+        {{640, 960}, 40, YES},
+        
+        // iPhone 5
+        {{1136, 640}, 40, YES},
+        {{640, 1136}, 40, YES},
+    
+        // iPad
+        {{2048, 1536}, 40, YES},
+        {{1536, 2048}, 40, YES},
+    
+    
+    // Not Retina
+        // iPhone
+        {{480, 320}, 20, NO},
+        {{320, 480}, 20, NO},
+        
+        // iPad
+        {{1024, 768}, 20, NO},
+        {{768, 1024}, 20, NO},
 };
 
 
