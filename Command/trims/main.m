@@ -62,7 +62,7 @@ void JBPrintHelp () {
 
 
 void JBPrintErrorMessage (NSString* errorMessage) {
-	fprintf (stderr, [[NSString stringWithFormat:@"Error: %@\n", errorMessage] UTF8String]);
+	fprintf (stderr, "%s" ,[[NSString stringWithFormat:@"Error: %@\n", errorMessage] UTF8String]);
 }
 
 
