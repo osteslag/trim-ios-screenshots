@@ -62,7 +62,7 @@ void JBPrintHelp () {
 
 
 void JBPrintErrorMessage (NSString* errorMessage) {
-	fprintf (stderr, [[NSString stringWithFormat:@"Error: %@\n", errorMessage] UTF8String]);
+	fprintf (stderr, "%s" ,[[NSString stringWithFormat:@"Error: %@\n", errorMessage] UTF8String]);
 }
 
 
@@ -110,7 +110,7 @@ void JBTrimImagesAtPathRecursively (NSString* path, BOOL recursively) {
 			
 			[fm fileExistsAtPath:subpath isDirectory:&isDirectory];
 			
-			if (!isDirectory) {
+			if (!isDirectory && [[subpath.pathExtension lowercaseString] isEqualToString:@"png"]) {
 				[trimmer addTrimOperationForImageAtPath:subpath completion:completion_block];
 			}
 			

@@ -48,6 +48,14 @@ static JBScreenGeometry const k_known_screen_geometries[] = {
         {{1136, 640}, 40, YES},
         {{640, 1136}, 40, YES},
     
+        // iPhone 6
+        {{1334, 750}, 40, YES},
+        {{750, 1334}, 40, YES},
+    
+        // iPhone 6 Plus
+        {{2208, 1242}, 60, YES},
+        {{1242, 2208}, 60, YES},
+    
         // iPad
         {{2048, 1536}, 40, YES},
         {{1536, 2048}, 40, YES},

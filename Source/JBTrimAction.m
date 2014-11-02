@@ -47,7 +47,7 @@
 	[trimTask setArguments:arguments];
 	[trimTask launch];
 	[trimTask waitUntilExit];
-	[trimTask release]; // Automator's 64-bit binary is garbage collected
+
 	
 	return input;
 	
