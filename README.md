@@ -7,7 +7,7 @@ This Xcode project contains two targets, each offering to integrate the job of t
 
 The command line utility does the actual job of the trimming. It uses multiple threads if applicable to make the execution faster. The action embeds and uses the utility and offers the convenience and flexibility of integrating with Automator workflows.
 
-If you don’t want to do the compiling yourself, head over to the [Downloads section](https://github.com/osteslag/trim-ios-screenshots/downloads) and download the binaries directly:
+If you don’t want to do the compiling yourself, head over to the [Releases section](https://github.com/osteslag/trim-ios-screenshots/releases) and download the binaries directly:
 
 ![Binaries for Download](https://github.com/osteslag/trim-ios-screenshots/raw/master/Screenshots/downloads.png)
 
@@ -64,7 +64,7 @@ Note, that if you generate the screenshots from iOS Simulator, don’t grab the 
 
 This project is available under the [BSD 2-Clause “Simplified” License](http://www.opensource.org/licenses/BSD-2-Clause):
 
-Copyright (c) 2012, Joachim Bondo <https://github.com/osteslag/>  
+Copyright (c) 2012-14, Joachim Bondo <https://github.com/osteslag/>  
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
